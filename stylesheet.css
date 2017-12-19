@@ -1,0 +1,266 @@
+﻿html {
+	background-image: url('background.jpg');
+	background-color: #044177;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	}
+
+body, table, tr, td, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+.title {
+	color: white;
+	text-align: center;
+}
+
+
+.nav {
+	position: fixed;
+	max-height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	top: 0;
+	opacity: 0.90;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	text-align: center;
+	padding:0px;
+	z-index: 1;
+}
+
+.icon {
+	-webkit-filter: brightness(100%)
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.icon:hover {
+	-webkit-filter: brightness(30%);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+/* THE REAL PAGE */
+
+.spacer {
+	margin:100px;
+}
+
+
+
+.grid, .section {
+	position: relative;
+	width: 825px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.gridspacer {
+	height:10px;
+	min-width:10px;
+}
+
+
+.moduleheading, .moduletitle {
+	text-align: center;
+	vertical-align: middle;
+	font-family: arial black;
+	color: #044177;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.module, .moduleborder, .moduletitle, .moduletitleborder {
+	padding: 10px;	
+	position: relative;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FFFFFF;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius: 15px;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	z-index: 0;
+	-webkit-filter: opacity(90%);
+	text-align: center;
+}
+
+.module, .moduletitle {
+	background-color: white;
+	color: #044177;
+}
+
+
+
+
+
+
+/* SIZING */
+
+.moduletitleborder {
+	width: 850px;
+}
+
+
+.module {
+	width: 225px;
+	max-height: 225px;
+}
+
+.moduleborder {
+	width: 250px;
+	min-width:250px;
+	height: 250px;
+}
+
+.moduleborder:hover {
+	-webkit-filter: opacity(70%);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#divshadow {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	}
+
+.ddtd {
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+	opacity: 1;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #044177;
+	color: white;
+	width: 75px;
+	height: 25px;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	-moz-border-radius:1px;
+	-webkit-border-radius:5px;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	opacity: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 75px;
+	color: white;
+	font-size: 12px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color:#FFFFFF;
+	-moz-border-radius:1px;
+	-webkit-border-radius:5px;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	opacity: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: white;
+	background-color: #044177;
+	padding: 5px 5px;
+	text-align: center;
+	max-height: 25px;
+	text-decoration: none;
+	display: block;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color:#FFFFFF;
+	-moz-border-radius:1px;
+	-webkit-border-radius:5px;
+	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	opacity: 1;
+
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #FFFFFF;
+	color:#044177;
+	border-style: solid;
+	border-width: 2px;
+	border-color:#044177;
+	max-height: 25px;
+	opacity: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #FFFFFF;
+	color:#044177;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#044177;
+}
