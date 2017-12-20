@@ -8,11 +8,8 @@
 	}
 
 body, table, tr, td, div {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-}
-
-body {
 	text-align: center;
 }
 
@@ -67,7 +64,6 @@ body {
 
 .grid, .section {
 	position: relative;
-	width: 825px;
 	margin: 10px auto;
 	text-align: center;
 }
@@ -78,20 +74,28 @@ body {
 }
 
 
-.moduleheading, .moduletitle {
+.moduletitle {
 	text-align: center;
 	vertical-align: middle;
-	font-family: arial black;
+	font-family: verdana;
 	color: #044177;
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: none;
+	font-size: 18px;
+	padding: 5px;	
+
+	border-color: #044177;
+	border-style: solid;
+	border-width: 3px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius: 15px;
 }
 
-.module, .moduleborder, .moduletitle, .moduletitleborder {
-	padding: 10px;	
+.module, .moduleborder, .moduleicon, .section {
+	padding: 5px;	
 	position: relative;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 3px;
 	border-color: #FFFFFF;
 	-moz-border-radius:15px;
 	-webkit-border-radius:15px;
@@ -102,23 +106,23 @@ body {
 	z-index: 0;
 	-webkit-filter: opacity(90%);
 	text-align: center;
-	background-color: white;
-	color: #044177;	
 }
 
-
+.module, .moduleicon, .section, .moduletitle {
+	background-color: white;
+	color: #044177;
+}
 
 
 
 /* SIZING */
 
 .moduletitleborder {
-	width: 850px;
+	max-width: 850px;
 }
 
-
 .module {
-	width: 225px;
+	max-width: 225px;
 	max-height: 225px;
 }
 
@@ -128,7 +132,7 @@ body {
 	height: 250px;
 }
 
-.moduleborder:hover {
+.moduleborder:hover, .module:hover{
 	-webkit-filter: opacity(70%);
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
