@@ -102,13 +102,9 @@ body {
 	z-index: 0;
 	-webkit-filter: opacity(90%);
 	text-align: center;
-}
-
-.module, .moduletitle {
 	background-color: white;
-	color: #044177;
+	color: #044177;	
 }
-
 
 
 
