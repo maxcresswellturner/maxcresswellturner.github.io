@@ -31,7 +31,7 @@ body, table, tr, td, div {
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 	text-align: center;
 	padding:0px;
-	z-index: 1;
+	z-index: 10;
 }
 
 .icon {
@@ -64,7 +64,7 @@ body, table, tr, td, div {
 
 .grid, .section {
 	position: relative;
-	margin: 10px auto;
+	margin: 5px auto;
 	text-align: center;
 }
 
@@ -76,19 +76,12 @@ body, table, tr, td, div {
 
 .moduletitle {
 	text-align: center;
-	vertical-align: middle;
-	font-family: verdana;
-	color: #044177;
-	font-weight: none;
-	font-size: 18px;
-	padding: 5px;	
+	font-family: arial;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 22px;
 
-	border-color: #044177;
-	border-style: solid;
-	border-width: 3px;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius: 15px;
 }
 
 .module, .moduleborder, .moduleicon, .section, .module2 {
@@ -103,12 +96,12 @@ body, table, tr, td, div {
 	-moz-box-shadow:0 4px 4px rgba(0,0,0,0.3);
 	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.3);
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
-	z-index: 0;
 	-webkit-filter: opacity(90%);
 	text-align: center;
+	z-index: 0;
 }
 
-.module, .moduleicon, .section, .moduletitle, .module2 {
+.module, .moduleicon, .module2 {
 	background-color: white;
 	color: #044177;
 }
