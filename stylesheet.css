@@ -40,8 +40,8 @@ body, table, tr, td, div {
 	margin-left: 30%;
 }
 
-.icon:hover {
-	-webkit-filter: brightness(30%);
+.icon:hover, .logo:hover {
+	-webkit-filter: brightness(50%);
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -69,8 +69,8 @@ body, table, tr, td, div {
 }
 
 .gridspacer {
-	height:10px;
-	min-width:10px;
+	height:2.5px;
+	min-width:2.5px;
 }
 
 
@@ -91,7 +91,7 @@ body, table, tr, td, div {
 	border-radius: 15px;
 }
 
-.module, .moduleborder, .moduleicon, .section {
+.module, .moduleborder, .moduleicon, .section, .module2 {
 	padding: 5px;	
 	position: relative;
 	border-style: solid;
@@ -108,7 +108,7 @@ body, table, tr, td, div {
 	text-align: center;
 }
 
-.module, .moduleicon, .section, .moduletitle {
+.module, .moduleicon, .section, .moduletitle, .module2 {
 	background-color: white;
 	color: #044177;
 }
@@ -116,6 +116,7 @@ body, table, tr, td, div {
 
 
 /* SIZING */
+
 
 .moduletitleborder {
 	max-width: 850px;
@@ -126,14 +127,19 @@ body, table, tr, td, div {
 	max-height: 225px;
 }
 
+.module2 {
+	min-width: 300px;
+	min-height: 350px;
+}
+
 .moduleborder {
 	width: 250px;
 	min-width:250px;
 	height: 250px;
 }
 
-.moduleborder:hover, .module:hover{
-	-webkit-filter: opacity(70%);
+.moduleborder:hover, .module:hover, .module2:hover {
+	-webkit-filter: opacity(75%);
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
