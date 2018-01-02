@@ -1,4 +1,4 @@
-﻿html {
+html {
 	background-image: url('background.jpg');
 	background-color: #044177;
 	background-size: cover;
@@ -61,7 +61,6 @@ body, table, tr, td, div {
 }
 
 
-
 .grid, .section {
 	position: relative;
 	margin: 5px auto;
@@ -109,6 +108,11 @@ body, table, tr, td, div {
 
 
 /* SIZING */
+
+.section
+
+.sectionrow
+
 
 
 .moduletitleborder {
