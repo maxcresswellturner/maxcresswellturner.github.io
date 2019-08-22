@@ -136,7 +136,7 @@ body, table, tr, td, div {
 }
 
 .moduleborder:hover, .module:hover, .module2:hover {
-	-webkit-filter: opacity(75%);
+	-webkit-filter: opacity(100%);
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
